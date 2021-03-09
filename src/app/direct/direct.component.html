@@ -1,0 +1,19 @@
+<div class="container">
+<div style="width: 200px; height: 200px; ;" [ngStyle]="{
+    'backgroundColor': bgColor,
+    'color':cl
+}">
+cour d'Angular 
+</div>
+<br>
+
+<div [ngClass]="{
+    'c1': class1,
+    'c2': class2,
+    'c3': class3
+}">
+Mastere ISIE
+</div>
+<br>
+<button (click)="changeClass()" class="btn btn-primary">change</button>
+</div>

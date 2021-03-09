@@ -1,0 +1,11 @@
+
+
+<input  [(ngModel)]="name" type="text" class="form-control">
+<div>wertani {{name}}</div>
+<div [hidden]="hd" [style.backgroundColor]="clr">
+    Mastere ISIE 
+</div>
+<button  (click)="showAlert()" class="btn btn-primary">valider</button>
+<br>
+
+<button (click)="hideShow()" class="btn-primary">hide/show</button>

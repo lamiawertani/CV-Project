@@ -1,0 +1,4 @@
+<ol>
+    
+    <app-item *ngFor="let p of personnesList" (perToList)="sendToCv($event)" [pers]='p'></app-item>
+</ol>
